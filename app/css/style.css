@@ -170,7 +170,7 @@ a, a:visited {
 /* line 148, ../scss/style.scss */
 .basic-button {
   display: inline-block;
-  background: #B00000;
+  background: #4CAF50;
   color: #FAFAFA;
   font-weight: bold;
   padding: 10px 15px;
@@ -255,7 +255,7 @@ a, a:visited {
   width: 100%;
   padding: 10px 7px;
   color: #FAFAFA;
-  background: #E81908;
+  background: #4CAF50;
   height: auto;
   text-align: center;
   visibility: hidden;
