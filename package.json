@@ -13,7 +13,6 @@
     ], 
     "user-agent": "", 
     "window": {
-        "transparent": false, 
         "fullscreen": false, 
         "resizable": false, 
         "show": true, 
@@ -26,17 +25,18 @@
         "width": 800, 
         "as_desktop": true, 
         "visible": true, 
+        "mac_icon": "app\\css\\images\\favicon.png", 
         "position": "center", 
         "show_in_taskbar": true, 
         "kiosk_emulation": false, 
-        "mac_icon": "app\\css\\images\\favicon.png", 
+        "transparent": false, 
         "toolbar": false, 
         "icon": "app/css/images/favicon.png"
     }, 
-    "version": "0.2", 
+    "version": "0.3", 
     "inject-js-start": "", 
     "main": "index.html", 
-    "chromium-args": "", 
+    "node-main": "", 
     "webexe_settings": {
         "linux-x32": true, 
         "export_dir": "C:\\Users\\dsi20\\Desktop\\serv flo\\web2exe output", 
@@ -61,9 +61,9 @@
     "dependencies": {
         "pragma-logger": "~0.2.5", 
         "lodash": "^3.6.0", 
-        "is-version-newer": "^2.1.0", 
-        "glob": "^5.0.3", 
         "asap": "^2.0.1", 
+        "glob": "^5.0.3", 
+        "is-version-newer": "^2.1.0", 
         "many-file-hashes": "^0.4.1", 
         "node-json-db": "~0.4.5", 
         "mcms-node-localization": "0.0.3", 
@@ -81,5 +81,5 @@
     "name": "friendscraft-launcher", 
     "single-instance": true, 
     "snapshot": "", 
-    "node-main": ""
+    "chromium-args": ""
 }

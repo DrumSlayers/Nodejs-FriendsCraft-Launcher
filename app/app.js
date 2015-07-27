@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 	/*===========================================
-	=            Usinacraft Launcher            =
+	=            FriendsCraft Launcher            =
 	===========================================*/
 
 	/*==========  Initialisation des modules  ==========*/
@@ -196,8 +196,8 @@ jQuery(document).ready(function($) {
 								callback();
 							}
 							else {
-								if(typeof data.profiles.Usinacraft.javaArgs != "undefined") {
-									data.profiles.Usinacraft.javaArgs = "-XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy";
+								if(typeof data.profiles.FriendsCraft.javaArgs != "undefined") {
+									data.profiles.FriendsCraft.javaArgs = "-XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy";
 								}
 								data.selectedProfile = "FriendsCraft";
 
