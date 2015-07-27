@@ -18,7 +18,7 @@ function Downloader() {
 		'main_dir': "%APPDATA%/.minecraft",
 		'scan_folders': ["mods", "config", "libraries"],
 		'remove_folders':	["mods", "config"],
-		'base_url':	"http://files.usinacraft.ch/"
+		'base_url':	"http://friendscraft.cloudcraft.fr/minecraft/"
 	}
 
 	for(var i in default_args) {
@@ -149,7 +149,7 @@ Downloader.prototype.getDifference = function(callback) {
 	db.push('/system/difference/missing', missing);
 	db.push('/system/difference/too', too);
 
-	var version_file = db.getData('/system/configurations').minecraft_folder + "usinacraft_version.txt";
+	var version_file = db.getData('/system/configurations').minecraft_folder + "friendscraft_version.txt";
 	
 	fs.stat(version_file, function(err, stat) {
 	    if(err == null) {

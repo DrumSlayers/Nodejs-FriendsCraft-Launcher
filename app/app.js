@@ -170,14 +170,14 @@ jQuery(document).ready(function($) {
 								callback();
 							}
 							else {
-								data.profiles.Usinacraft = {
-									"name": "Usinacraft",
+								data.profiles.FriendsCraft = {
+									"name": "FriendsCraft",
 									"lastVersionId": selected_version,
-									"javaArgs": "-Xmx3G -Xmn1G -XX:MaxPermSize=3G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy",
+									"javaArgs": "-XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy",
 									"useHopperCrashService": false,
 									"launcherVisibilityOnGameClose": "keep the launcher open"
 								}
-								data.selectedProfile = "Usinacraft";
+								data.selectedProfile = "FriendsCraft";
 
 								fs.writeJson(profiles_file, data, function(err) {
 									if (err) Log.error(err);
@@ -197,9 +197,9 @@ jQuery(document).ready(function($) {
 							}
 							else {
 								if(typeof data.profiles.Usinacraft.javaArgs != "undefined") {
-									data.profiles.Usinacraft.javaArgs = "-Xmx3G -Xmn1G -XX:MaxPermSize=3G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy";
+									data.profiles.Usinacraft.javaArgs = "-XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy";
 								}
-								data.selectedProfile = "Usinacraft";
+								data.selectedProfile = "FriendsCraft";
 
 								fs.writeJson(profiles_file, data, function(err) {
 									if (err) Log.error(err);

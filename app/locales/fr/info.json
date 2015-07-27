@@ -1,7 +1,7 @@
 {
 	"server.name" : "Usinacraft",
 	"starting_minecraft" : "Démarrage du launcher Minecraft en cours...",
-	"launching" : "Démarrage du launcher d'Usinacraft en cours... | Version du launcher : %s",
+	"launching" : "Démarrage du launcher FriendsCraft en cours... | Version du launcher : %s",
 	"load_cache" : "Chargement du cache...",
 	"check_launcher_version": "Vérification de la version du launcher...",
 	"prepare_download" : "Préparation du téléchargement...",

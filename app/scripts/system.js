@@ -27,9 +27,9 @@ function System() {
 	this.minecraft_folder = this.is.windows ? this.user_folder + "/Appdata/Roaming/.minecraft" : this.user_folder + "/.minecraft";
 	this.minecraft_launcher = this.is.windows ? this.user_folder + "/Desktop/Minecraft.exe" : null;
 	this.launcher_version = gui.App.manifest.version.toString();
-	this.title = " - BETA v" + this.launcher_version;
-	this.base_url = "http://files.usinacraft.ch/";
-	this.update_url = "http://usinacraft.ch/server/launcher";
+	this.title = " - ALPHA Version " + this.launcher_version;
+	this.base_url = "http://friendscraft.cloudcraft.fr/minecraft/";
+	this.update_url = "http://friendscraft.cloudcraft.fr/download/";
 	this.launch_minecraft_on_finish = true;
 }
 
@@ -124,7 +124,7 @@ System.prototype.setup = function(main_callback) {
 			catch (err) {
 				db.push('/minecraft/versions', {
 					all: {},
-					latest: "Usinacraft 2.0.0"
+					latest: "FriendsCraft 0.1"
 				});
 			}
 			callback();

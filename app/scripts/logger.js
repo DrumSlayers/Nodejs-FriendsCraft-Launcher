@@ -17,7 +17,7 @@ var Log = new PragmaLogger({
       },
       messageFormat: '%t \t| %name :: %lvl \t| PID: %pid - %msg'
     }
-}, 'Usinacraft - Launcher');
+}, 'FriendsCraft - Launcher');
 
 /*==========  Class  ==========*/
 
